@@ -32,16 +32,17 @@
                 <div>
                     <img class="avatar-img" src="{{asset('assets/images/avatar.png')}}" alt="">
                 </div>
-                <div>
+                <div role="button">
                     <img class="flag-img" src="{{asset('assets/images/bd.png')}}" alt="">
+                    <i class="fa-solid fa-down-long"></i>
                 </div>
             </div>
         </div>
         <div class="row menu-bar">
-            <div class="col-md-3">
-                <i class="fa-solid fa-bars"></i> Select Category <i class="fa-solid fa-down-long"></i>
+            <div class="col-md-2 select-category">
+                <i class="fa-solid fa-bars"></i> <span>Select Category</span> <i class="fa-solid fa-down-long"></i>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-8">
                 <ul class="nav">
                     <li class="menu-item"><a href="">Home</a></li>
                     <li class="menu-item"><a href="">About</a></li>
@@ -50,7 +51,7 @@
                     <li class="menu-item"><a href="">Contact Us</a></li>
                 </ul>
             </div>
-            <div class="col-md-3 d-flex justify-content-between align-items-center">
+            <div class="col-md-2 d-flex justify-content-between align-items-center">
                 <div>
                     <i class="fa-regular fa-heart"></i>
                     <i class="fa-solid fa-cart-shopping"></i>
