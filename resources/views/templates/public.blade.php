@@ -29,11 +29,12 @@
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
             <div class="col-md-2 d-flex justify-content-between align-items-center">
-                <div>
+                <div role="button">
                     <img class="avatar-img" src="{{asset('assets/images/avatar.png')}}" alt="">
+                    <span>Jhon Doe</span>
                 </div>
                 <div role="button">
-                    <img class="flag-img" src="{{asset('assets/images/bd.png')}}" alt="">
+                    <img class="flag-img" src="{{asset('assets/images/us.png')}}" alt="">
                     <i class="fa-solid fa-down-long"></i>
                 </div>
             </div>
@@ -52,11 +53,13 @@
                 </ul>
             </div>
             <div class="col-md-2 d-flex justify-content-between align-items-center">
-                <div>
+                <div class="hotlist">
                     <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="cart">
                     <i class="fa-solid fa-cart-shopping"></i>
                 </div>
-                <div>
+                <div class="rigt-side-bar">
                     <i class="fa-solid fa-bars"></i>
                 </div>
             </div>
@@ -66,8 +69,15 @@
     @yield('content-area')
 
 
-    <footer>
-        
+    <footer class="container-fluid">
+        <div class="row"></div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-3"></div>
+            <div class="col-md-3"></div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row"></div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js">
